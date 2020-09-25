@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++-7 build active file",
+			"command": "/usr/bin/g++-7",
+			"args": [
+				"-std=c++1z",
+				"-DSQLITE_THREADSAFE=0",
+				"-DSQLITE_OMIT_LOAD_EXTENSION",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

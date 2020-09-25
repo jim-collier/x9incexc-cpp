@@ -1,3 +1,19 @@
+##	History:
+##		- 20200925 JC: Created by cobbling together from various sources.
+
+
+##
+## Custom
+##
+
+build/*
+!build/build.xml
+
+
+##
+## From github
+##
+
 # Prerequisites
 *.d
 

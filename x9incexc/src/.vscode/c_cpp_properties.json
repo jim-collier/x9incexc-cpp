@@ -1,0 +1,18 @@
+{
+    "configurations": [{
+        "name": "Linux",
+        "includePath": [
+            "../../0_include/cpp/src",
+            "${workspaceFolder}/**"
+        ],
+        "browse": {
+            "path": [
+                "../../0_include/cpp/src",
+                "${workspaceFolder}/**"
+            ]
+        },
+        "defines": [],
+        "compilerPath": "/usr/bin/clang"
+    }],
+    "version": 4
+}
