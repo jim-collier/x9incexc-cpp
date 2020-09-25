@@ -6,8 +6,7 @@
 ## Custom
 ##
 
-build/*
-!build/build.xml
+*/build/*
 
 
 ##
